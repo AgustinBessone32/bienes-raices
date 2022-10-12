@@ -515,6 +515,9 @@ video {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
+.mt-14 {
+  margin-top: 3.5rem;
+}
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -529,9 +532,6 @@ video {
 }
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-.mt-14 {
-  margin-top: 3.5rem;
 }
 .block {
   display: block;
@@ -1007,10 +1007,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row {
