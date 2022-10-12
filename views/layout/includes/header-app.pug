@@ -1,10 +1,11 @@
 header.bg-indigo-600.p-1
     .container.mx-auto.flex.justify-between.items-center
-        h1.text-2xl.text-white.font-extrabold.text-center Bienes
-            span.font-normal Raices
+        a(href='/')
+            h1.text-2xl.text-white.font-extrabold.text-center Bienes
+                span.font-normal Raices
 
         nav(class='my-5 text-sm md:flex md:items-center md:gap-4 font-bold text-white hidden')
-            a(href='/auth/registro') Crear Cuenta
+            a(href='/auth/register') Crear Cuenta
             a(href='/auth/login') Iniciar Sesión
 
 div(class='bg-indigo-700 py-5 hidden lg:block')
