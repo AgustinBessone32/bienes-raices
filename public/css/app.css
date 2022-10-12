@@ -515,11 +515,11 @@ video {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
-.mt-14 {
-  margin-top: 3.5rem;
-}
 .mt-5 {
   margin-top: 1.25rem;
+}
+.mt-14 {
+  margin-top: 3.5rem;
 }
 .mt-10 {
   margin-top: 2.5rem;
@@ -605,14 +605,14 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.gap-5 {
+  gap: 1.25rem;
+}
 .gap-4 {
   gap: 1rem;
 }
 .gap-2 {
   gap: 0.5rem;
-}
-.gap-5 {
-  gap: 1.25rem;
 }
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
